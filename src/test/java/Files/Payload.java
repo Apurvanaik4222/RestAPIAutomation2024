@@ -4,7 +4,7 @@ public class Payload {
 
     public static String addPlacePayload(){
 
-        return "{\n" +
+        String addPlacePayload = "{\n" +
         "  \"location\": {\n" +
                 "    \"lat\": -38.383494,\n" +
                 "    \"lng\": 33.427362\n" +
@@ -20,6 +20,7 @@ public class Payload {
                 "  \"website\": \"http://google.com\",\n" +
                 "  \"language\": \"French-IN\"\n" +
                 "}\n";
+        return addPlacePayload;
     }
 
     public  static  String updatePlacePayload(String place_id,String newAddress){
