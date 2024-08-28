@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clean') {
+        stage('Clean Artificats') {
             steps {
                 bat mvn clean
             }
